@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event: copy</title>
+    <style>
+        body {
+            height: 200vh;
+        }
+    </style>
+</head>
+<body oncopy="debug(event)">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officia sed quia, iure eligendi totam magnam repellendus accusantium vitae quis voluptate explicabo quod unde. Dicta laborum nesciunt neque molestiae amet.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officia sed quia, iure eligendi totam magnam repellendus accusantium vitae quis voluptate explicabo quod unde. Dicta laborum nesciunt neque molestiae amet.</p>
+    
+    <script> 
+        function cancel(e) {
+            e.preventDefault();
+        }
+
+        function debug(e) {   
+            console.log('Evento:' + e.type);
+        }
+    </script> 
+    
+</body>
+</html>
