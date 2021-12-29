@@ -1,0 +1,28 @@
+
+body {
+    background: rgb(204, 229, 255, 0.4);
+ }
+ 
+ #title {
+     color: rgb(186, 133, 9);
+ }
+ 
+ .subtitle {
+     color: rgb(200, 148, 50);
+     
+ }
+ 
+ #service-image {
+     height: 400px; /* Igonre this! */
+     width: 70%;  /* Igonre this! */
+ 
+     background:url("https://expertphotography.b-cdn.net/wp-content/uploads/2019/06/reflections_landscape.jpg");
+     /* background-repeat: no-repeat; */
+     background-color: steelblue;
+     background-size: cover;
+ }
+
+
+
+
+

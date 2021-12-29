@@ -1,0 +1,30 @@
+
+body {
+    background: linear-gradient(to bottom,  rgb(204, 229, 255), rgba(204, 229, 255, 0.4));
+    
+ }
+ 
+ #title {
+     color: rgb(186, 133, 9);
+ }
+ 
+ .subtitle {
+     color: rgb(200, 148, 50);
+     
+ }
+ 
+ #service-image {
+     height: 400px; /* Igonre this! */
+     width: 70vw;  /* Igonre this! */
+    /* background: linear-gradient(to right, red, green, steelblue,blue); */
+     /* background: linear-gradient(215deg, rgb(94, 255, 126), rgba(94, 255, 126, 0)); */
+     
+     background: radial-gradient(circle, red 20%, blue 40%, green 55%)
+
+     
+ }
+
+
+
+
+
