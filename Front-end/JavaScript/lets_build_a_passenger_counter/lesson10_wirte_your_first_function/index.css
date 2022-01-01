@@ -1,0 +1,27 @@
+
+#increment-btn {
+    font-size: 1.25em;
+    background-color: #851940;
+    color: #FFF;
+    padding: .5em;
+    border-radius: 10px;
+    width: 25ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+}
+
+#count-el{
+    font-size: 5em;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    size: 200px;
+}
